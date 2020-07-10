@@ -8,10 +8,17 @@ html {
     background-color: #e8e8e8;
 }
 
+@media only screen and (max-width: 1300px) {
+    html {
+      background-color: lightblue;
+    }
+  }
+
 #nav-bar {
-    display: inline-block;
+    display: flex;
     text-decoration: none;
     width: 50;
+    float: right;
 }
 
 #header-img {
@@ -22,3 +29,31 @@ html {
 p {
     margin: ;
 }
+
+#Pricing {
+    display: flex;
+   
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.price_style {
+    
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 50px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#features {
+    display: flex;
+    flex-direction: row;
+
+}
+
