@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #e8e8e8;
+}
+
+#nav-bar {
+    display: inline-block;
+}
+
+#header-img {
+    width: auto;
+    height: 50px;
+}
+
+p {
+    margin: auto;
+}
